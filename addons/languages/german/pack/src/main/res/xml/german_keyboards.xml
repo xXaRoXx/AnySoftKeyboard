@@ -130,4 +130,10 @@
         layoutResId="@xml/de_dvorak_compact"
         nameResId="@string/de_keyboard_dvorak_compact"
         physicalKeyboardMappingResId="@xml/german_physical" />
+    <Keyboard nameResId="Kalq" iconResId="@drawable/ic_status_german"
+        layoutResId="@xml/de_kalq_compact" landscapeResId="@xml/de_kalq"
+        id="a2d33bee-9465-11eb-a8b3-0242ac130003"
+        defaultDictionaryLocale="de" description="KALQ Layout German"
+        index="14" defaultEnabled="false"
+        physicalKeyboardMappingResId="@xml/german_physical" />
 </Keyboards>

@@ -53,5 +53,11 @@
               defaultDictionaryLocale="en" description="@string/english_keyboard_qwertz_symbols_description"
               index="11" defaultEnabled="false"
               physicalKeyboardMappingResId="@xml/english_physical" />
+    <Keyboard nameResId="Kalq" iconResId="@drawable/ic_status_english"
+        layoutResId="@xml/kalq_compact" landscapeResId="@xml/kalq"
+        id="48881f69-3a33-4928-89b1-080c50f288a4"
+        defaultDictionaryLocale="en" description="KALQ Layout"
+        index="12" defaultEnabled="false"
+        physicalKeyboardMappingResId="@xml/english_physical" />
 
 </Keyboards>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ask="http://schemas.android.com/apk/res-auto"
+    android:keyWidth="12.5%p">
+    
+    <Row>>
+        <Key android:codes="m"  android:keyEdgeFlags="left" />
+        <Key android:codes="b"  android:popupCharacters="2²₂ŵ" ask:hintLabel="2" />
+        <Key android:codes="w"  android:popupCharacters="3³₃§èéêëęē" ask:hintLabel="3" />
+        <Key android:codes="h"  android:popupCharacters="4⁴₄řŕ" ask:hintLabel="4" />
+        <Key android:codes="g"  android:popupCharacters="5ťṭṯ" ask:hintLabel="5" />
+        <Key android:codes="t"  android:popupCharacters="6ýÿ" ask:hintLabel="6" />
+        <Key android:codes="o"  android:popupCharacters="7üµùúûŭűū" ask:hintLabel="7" />
+        <Key android:codes="j"  android:popupCharacters="8ìíîïłīι*" ask:hintLabel="8" android:keyEdgeFlags="right"/>
+
+    </Row>
+
+    <Row>
+        <Key android:codes="p"  android:popupCharacters="\@äàáâãāåæą" ask:hintLabel="\@" android:keyEdgeFlags="left"/>
+        <Key android:codes="32,48" />
+        <Key android:codes="x"  android:popupCharacters="€đďḏ" ask:hintLabel="€" />
+        <Key android:codes="c"  android:popupCharacters="_" ask:hintLabel="_" />
+        <Key android:codes="i"  android:popupCharacters="&amp;ĝ" ask:hintLabel="&amp;" />
+        <Key android:codes="e"  android:popupCharacters="-—ḫẖḥĥ" ask:hintLabel="−" />
+        <Key android:codes="32"/>
+        <Key android:codes="u"  android:popupCharacters="([{⸢" ask:hintLabel="(" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+
+        <Key android:codes="r" android:popupCharacters="*·×" ask:hintLabel="*" />
+        <Key android:codes="y" android:popupCharacters="&quot;" ask:hintLabel="&quot;" />
+        <Key android:codes="s" android:popupCharacters="'" ask:hintLabel="'" />
+        <Key android:codes="z" android:popupCharacters=":." ask:hintLabel=":" />
+        <Key android:codes="k" android:popupCharacters=";," ask:hintLabel=";" />
+        <Key android:codes="a" android:popupCharacters="!" ask:hintLabel="!" />
+        <Key android:codes="l"  android:isModifier="true" />
+        <Key android:codes="q" android:popupCharacters="\?µ" ask:hintLabel="\?" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="d" android:popupCharacters="*·×" ask:hintLabel="*" />
+        <Key android:codes="n" android:popupCharacters="&quot;" ask:hintLabel="&quot;" />
+        <Key android:codes="f" android:popupCharacters="'" ask:hintLabel="'" />
+        <Key android:codes="v" android:popupCharacters="'" ask:hintLabel="'" />
+
+        <Key android:codes="-5" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="-1" android:isModifier="true" android:isSticky="true" android:keyEdgeFlags="left"/>
+        <Key android:codes="10" android:keyEdgeFlags="right" ask:longPressCode="-100"/>
+    </Row>
+</Keyboard>
